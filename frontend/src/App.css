@@ -1,0 +1,119 @@
+/* App.css */
+
+body {
+  background: linear-gradient(to right, #fffaf0, #fdebd0);
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 20px;
+}
+
+.container {
+  max-width: 1100px;
+  margin: auto;
+  padding: 20px;
+}
+
+h1 {
+  color: #d2691e;
+  text-align: center;
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+
+h2 {
+  color: #8b4513;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.products, .orders {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.product {
+  background: #fff;
+  padding: 15px 20px;
+  width: auto;
+  text-align: center;
+  font-size: 1.2rem;
+  color: #8b4513;
+  margin-bottom: 15px;
+}
+
+.product-name {
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: #d2691e;
+}
+
+.product-price {
+  color: #8b4513;
+}
+
+.order-card {
+  background: #fff;
+  border-radius: 15px;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+  padding: 20px;
+  width: 240px;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.order-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 24px rgba(0,0,0,0.2);
+}
+
+.form {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin-top: 20px;
+  flex-wrap: wrap;
+}
+
+input {
+  padding: 10px;
+  border: 2px solid #f4a261;
+  border-radius: 8px;
+  font-size: 16px;
+  width: 220px;
+}
+
+input:focus {
+  outline: none;
+  border-color: #e76f51;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #e76f51;
+  border: none;
+  color: white;
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s, transform 0.2s;
+}
+
+button:hover {
+  background-color: #d35400;
+  transform: scale(1.05);
+}
+
+.status {
+  text-align: center;
+  margin-top: 15px;
+  font-weight: bold;
+  color: #27ae60;
+}
+
+hr {
+  margin: 50px 0;
+  border: 1px solid #dcdcdc;
+}
